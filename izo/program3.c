@@ -1,0 +1,36 @@
+
+//variables and data type
+
+#include<stdio.h>
+int main(){
+    //Declaring variables
+
+    char a  ;
+    char name[]= { };
+    int age ;//
+    float salary  ;//%f
+    double budget  ;//%lf
+    //prompting the user to entering variables
+    printf("Enter character: ");
+    scanf("%c",&a);
+    printf("the character is:  %c \n",a);
+
+    printf("Enter your name");
+    scanf("%s",&name);
+    printf("your name is %s \n",name);
+
+    printf("Enter your age: ");
+    scanf("%d",&age);
+    printf("your age is %d \n",age);
+
+    printf("Enter your salary: ");
+    scanf("%f",&salary);
+    printf("your salary is %.2f \n",salary);
+
+    printf("Enter your budget: ");
+    scanf("%lf",&budget);
+    printf("your budget is %.2lf \n",budget);
+
+
+    return 0;
+}
